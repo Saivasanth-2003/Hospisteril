@@ -1,0 +1,350 @@
+.outerfooter{
+    background: linear-gradient(to bottom, #677855, #616366b6);
+    width:100%;
+    overflow: hidden;
+}
+.mainfooter{
+    display: flex;
+    gap:40px;
+    padding:80px 0px;
+    margin:auto;
+    width:100%;
+    height:auto;
+    
+
+}
+.footer1{
+    width:25%;
+    /* background-color: blue; */
+}
+.footer2{
+    width:25%;
+    /* background-color: blue; */
+
+}
+.footer3{
+    width:25%;
+    /* background-color: blue; */
+}
+.footer4{
+    width:25%;
+    /* background-color: blue; */
+}
+.imp{
+    font-weight: 500;
+    padding-left: 3px;
+}
+.fh{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Barrow Carossel', sans-serif;
+    margin-bottom:50px;
+    padding-left: 40px;
+}
+.fp{
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+.fph{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+.fe{
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+.ml{
+    color:orange;
+    font-weight: 400;
+}
+.fimg{
+    width:200px;
+    margin-left: -45px;
+    height:100px;
+}
+.fh1{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Barrow Carossel', sans-serif;
+    margin-bottom:10px;
+    padding-left: 40px;
+}
+.fh2{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Barrow Carossel', sans-serif;
+    margin-bottom:50px;
+
+}
+.f2l{
+    font-size: 18px;
+
+    
+}
+
+input{
+    width: 75%;
+    height: 30px;
+    border:1px black;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+input:hover{
+    border:1px solid #A0DEED;
+}
+
+.signup{
+    width:100px;
+    height:40px;
+    font-size:14px;
+    padding: auto;
+    font-weight: 600;
+    line-height: 14px;
+    background-color: #223B73;
+    font-family: 'Barrow Carossel', sans-serif;
+}
+.fimage{
+    width:80%;
+    height:150px;
+    margin-left: -50px;
+}
+.fname{
+    font-size:18px;
+    color:#444444;
+    font-weight: 600;
+    padding: 0px 20px;
+}
+.imp{
+    color:orangered;
+}
+.fnote{
+    font-size:16px;
+    padding:0px 20px;
+}
+.fp3{
+    font-size:12px;
+    padding:0px 20px;
+    font-weight: 600;
+}
+.icon{
+    width:100px;
+    height:100px;
+    margin-left: -40px;
+}
+
+.outer2{
+    background: linear-gradient(to bottom, #000000, #3f413f53);
+    width:100%;
+    height:auto;
+}
+
+.lastfooter{
+    color:black;
+    display: flex;
+    height:auto;
+}
+.logol{
+    width:50%;
+    margin:10px 60px;
+}
+.fop{
+  position: relative;
+  font-size:12px;
+  bottom: 25px;
+  left:900px;
+  color:#ffffff;
+  height: auto;
+}
+
+.pf{
+    width:300px;
+    margin:0px -50px;
+    height:80px;
+}
+
+.social{
+    gap:30px;
+
+    display: flex;
+    color:#ffffff;
+    font-size: 20px;
+    padding: 40px 200px;
+    font-weight: 100;
+    height: auto;
+}
+.sl:hover{
+    color:orange;
+}
+
+/* Large Screens (Default) */
+@media screen and (max-width: 1200px) {
+    .mainfooter {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer1, .footer2, .footer3, .footer4 {
+        width: 45%;
+    }
+
+    .social {
+        padding: 30px 80px;
+    }
+
+    .fop {
+        position: relative;
+        left: auto;
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* Tablets (Landscape & Small Laptops) */
+@media screen and (max-width: 992px) {
+    .outerfooter{
+
+        margin-top: 200px;
+
+    }
+    
+    .mainfooter {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer1, .footer2, .footer3, .footer4 {
+        width: 90%;
+    }
+
+    .fimg, .fimage {
+        width: 180px;
+        height: auto;
+    }
+
+    .social {
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px 20px;
+        gap: 20px;
+    }
+
+    .fop {
+        width: 100%;
+        text-align: center;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .logol {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .signup {
+        width: 90%;
+    }
+    
+}
+
+/* Mobile Phones (Portrait Mode) */
+@media screen and (max-width: 768px) {
+    .outerfooter{
+
+        margin-top: 250px;
+
+    }
+    
+    
+    .footer1, .footer2, .footer3, .footer4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logol {
+        width: 70%;
+        margin-top: 10px;
+        margin-left:-50px;
+    
+    }
+
+    .social {
+        flex-direction: row;
+        padding: 30px 30px;
+        gap: 15px;
+    }
+
+    .fop {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .signup {
+        width: 100%;
+        height: 40px;
+    }
+
+    .fimg, .fimage {
+        width: 140px;
+        height: auto;
+    }
+
+   
+}
+
+/* Small Mobile Screens */
+@media screen and (max-width: 480px) {
+   
+    
+    .mainfooter {
+        padding: 30px 0;
+        gap: 20px;
+    }
+
+    .fh, .fh1, .fh2, .fp, .fph, .fe, .ml {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .fimg, .fimage {
+        width: 120px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .social {
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .signup {
+        width: 100%;
+        height: 35px;
+    }
+
+    .fop {
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .logol {
+        width: 100%;
+        text-align: center;
+    }
+}
